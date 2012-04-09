@@ -10,32 +10,29 @@
 </head>
 
 <body class="home">
-  <div class="home">
-    <div class="containerhome">
-      <!--
-    <img class="fa" src="images/buttondown.gif" />
-    -->
 
-      <div class="header">
-        <br />
+	<div class="home">
+		<div class="containerhome">
+			<div class="header">
+			<br />
         
-        <div class="home">
+				<div class="home">
         
-	<?php
-		include('menu.php');
-	?>
+				<?php
+					include('/inc/menu.php');
+				?>
     
-          <div class="clear"></div>
-        </div>
-
-      </div>
+                <div class="clear"></div>
+                </div>
+		</div>
     </div>
 
     <div class="footerhome">
-      <p class="home">Designed By <a class="mailhome" href=
-      "http://www.naserr.ir">NASER</a> For © Rasa Record</p>
-    </div>
-  </div>
+		<p class="home">Designed By <a class="mailhome" href=
+      "http://www.naserr.ir">NASER</a> For © Rasa Record
+		</p>
+	</div>
+
   <object width="0" height="0" align="middle" bgcolor="#000" name=""
 classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
 codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0">
