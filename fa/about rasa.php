@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="rasa music studio" />
 <meta name="keywords" content="Music,Studio,Music maker" />
+<title>استودیو رسا رکورد</title>
 <link type="text/css" rel="stylesheet" href="css.css" />
 <link type="text/css" rel="stylesheet" href="font/font.css" />
 </head>
