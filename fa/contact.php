@@ -7,7 +7,7 @@
 <title>استودیو رسا رکورد</title>
 <link type="text/css" rel="stylesheet" href="css.css" />
 <link type="text/css" rel="stylesheet" href="font/font.css" />
-<script type="text/javascript" language="javascript" src="validator.js"></script>
+<script type="text/javascript" language="javascript" src="inc/validator.js"></script>
 </head>
 
 <body>
