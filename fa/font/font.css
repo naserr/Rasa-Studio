@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: zar;
+  src:
+	local('B Zar'),
+	local('BZar'),
+	local('X Zar'),
+	url('zar.ttf') format("truetype"),
+	url('zar.eot') format('embedded-opentype'),
+	url('zar.afm');
+  font-weight: normal;
+	font-style:normal;
+}
