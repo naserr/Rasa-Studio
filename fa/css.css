@@ -5,7 +5,7 @@
 	margin:0;
 }
 
-a,img { 
+a.img { 
 	outline:none;
 	border:none;
 }
@@ -341,13 +341,14 @@ form.contact{
 }
 
 input.contact{
+	text-align:center;
 	font-family: zar;
 	width:192px;
 	height:25px;
 	margin-right:22px;
 	margin-bottom:0px;
 	background-image:url(images/name_inputb.gif);
-	border:1px solid gray;
+	border:1px solid ;
 	border-radius:7px;
 	-moz-border-radius:7px; /* Firefox 3.6 and earlier */
 	color:#666;
@@ -370,7 +371,7 @@ input.contact{
 	-moz-border-radius:7px; /* Firefox 3.6 and earlier */
 }
 div.contact img.logou{
-	margin:10px 240px;
+	margin:40px 240px;
 	border:none;
 }
 input.send {

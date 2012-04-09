@@ -1,7 +1,7 @@
 <!-- MENU-->
 
 <ul id="navigation" class="nav-main">
-	<li><a href="index.html">صفحه اصلی</a></li>
+	<li><a href="index.php">صفحه اصلی</a></li>
     <li class="list"><a href="work1.html"> جدیدترین آثار </a>
 		<ul class="nav-sub">
             <li><a href="work1.html">کار1</a></li>
@@ -25,8 +25,8 @@
     <li><a href="contact.html">تماس با ما</a></li>
 	<li class="list"><a href="#">زبان</a>
 		<ul class="nav-sub">
-			<li><a href="../index.html">English</a></li> 
-			<li><a href="index.html">Persian</a></li>
+			<li><a href="../index.php">English</a></li> 
+			<li><a href="index.php">Persian</a></li>
 		</ul>
 	</li>
 </ul>

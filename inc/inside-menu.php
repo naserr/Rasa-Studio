@@ -40,15 +40,9 @@
 	<li><a href="about rasa.php">About Rasa Record</a></li>
 
 	<li><a href="contact.php">Contact</a></li>
-
-	<li class="list">
-		<a href="index.php">Language</a>
-
-		<ul class="nav-sub">
-			<li><a href="fa/index.php">Persian</a></li>
-			<li><a href="index.php">English</a></li>
-		</ul>
-	</li>
+    
+    <li><a href="signup.php">Sign Up Now!<span style="color:orange">*</span> </a></li>
+    <p>Rasa Record Studio</p>
 </ul>
 
 <!-- MENU-->

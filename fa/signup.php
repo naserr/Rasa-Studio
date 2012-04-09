@@ -12,35 +12,11 @@
 <body>
 	<div class="container">
 		<div class="header">
-    <!-- MENU-->
 <br />
-<ul id="navigation" class="nav-main">
-	<li><a href="index.html">صفحه اصلی</a></li>
-    <li class="list"><a href="work1.html"> جدیدترین آثار </a>
-		<ul class="nav-sub">
-            <li><a href="work1.html">کار1</a></li>
-            <li><a href="work2.html">کار2</a></li>
-            <li><a href="work3.html">کار3</a></li>
-            <li><a href="work4.html">کار4</a></li>
-            <li><a href="work5.html">کار5</a></li>
-		</ul>
-	</li>
-    <li class="list"><a href="gallery1.html">گالری</a>
-		<ul class="nav-sub">
-			<li><a href="gallery1.html">عکس1</a></li>
-			<li><a href="gallery2.html">عکس2</a></li>
-			<li><a href="gallery3.html">عکس3</a></li>
-			<li><a href="gallery4.html">عکس4</a></li>
-			<li><a href="gallery5.html">عکس5</a></li>
-			<li><a href="gallery6.html">عکس6</a></li>
-		</ul>
-	</li>
-    <li><a href="about rasa.html">درباره استدیو رسا رکورد</a></li>
-    <li><a href="contact.html">تماس با ما</a></li>
-    <p>Rasa Record Studio</p>
-</ul>
+	<?php
+		include('inc/inside-menu.php');
+	?>
 	<div class="clear"></div>
-<!-- MENU-->
 		<div class="contain">
 <!--       
         	<div class="leftpanel"><p></p></div>
@@ -165,7 +141,7 @@ Warez به نرم افزاری گفته میشه که بدون رعایت حقو
 با خواندن این قوانین شما مسئولیت رفتار و ارسالهای خود را در سایت به عهده خواهید گرفت. در صورتی که از قوانین مذکور حمایت نکنید با شما برخورد خواهد شد. اجرای این قوانین به خواست بسیاری از افراد و به خصوص به لحاظ راحتی تمامی کاربران ملزوم می باشد.
 با امید به اینکه با به کارگیری قوانین سایت و دستورالعملهایی که در آینده به آنها اضافه خواهد شد بتوانیم رضایت شما کاربر گرامی را جلب کنیم. به امید ساعات خوش در هنگام مشاهده این سایت برای شما.			</textarea><br />
 			<input type="checkbox" name="want" /> قوانین را می پذیرم<br /><br />
-          <input class="submit" type="button" value="ثبت" onclick="javascript:location.href ='signup.html';" />
+          <input class="submit" type="button" value="ثبت" onclick="javascript:location.href ='signup.php';" />
 			<input class="reset" type="button" value="پاک کردن" onClick="javascript:location.href = '#';" /> 
 			</form>
             </div>        
@@ -179,16 +155,17 @@ Warez به نرم افزاری گفته میشه که بدون رعایت حقو
 					رمز ورود :<input class="user"  type="password" name="pws"/><br /><br />
                     
 					<input class="b" type="button" value="ورود" onClick="javascript:location.href = '#';" />
-					<input class="a" type="button" value="ثبت نام" onClick="javascript:location.href ='signup.html';" />
+					<input class="a" type="button" value="ثبت نام" onClick="javascript:location.href ='signup.php';" />
                 </form>
 				</div>
 		</div>
     
 			<div class="clear"></div><br /><br /> RightPanel--LOGIN-->        
             
-			<div class="footer">
-        	<p>Designed By <a class="mail" href=www.naserr.ir>NASER</a> For © Rasa Record
-            </p>
+        <div class="footer">
+            <?php
+                include('inc/inside-footer.php');
+            ?>
         </div>
     </div>
 </body>

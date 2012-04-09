@@ -10,38 +10,12 @@
 
 <body>
 	<div class="container">
-    
 		<div class="header">
-    <!-- MENU-->
-<br />
-<ul id="navigation" class="nav-main">
-	<li><a href="index.html">Home</a></li>
-    <li class="list"><a href="work1.html">New Works</a>
-		<ul class="nav-sub">
-            <li><a href="work1.html">Work1</a></li>
-            <li><a href="work2.html">Work2</a></li>
-            <li><a href="work3.html">Work3</a></li>
-            <li><a href="work4.html">Work4</a></li>
-            <li><a href="work5.html">Work5</a></li>
-		</ul>
-	</li>
-    <li class="list"><a href="gallery1.html">Gallery</a>
-		<ul class="nav-sub">
-			<li><a href="gallery1.html">Gallery1</a></li>
-			<li><a href="gallery2.html">Gallery2</a></li>
-			<li><a href="gallery3.html">Gallery3</a></li>
-			<li><a href="gallery4.html">Gallery4</a></li>
-			<li><a href="gallery5.html">Gallery5</a></li>
-			<li><a href="gallery6.html">Gallery6</a></li>
-		</ul>
-	</li>
-    <li><a href="about rasa.html">About Rasa Record</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="signup.html">Sign Up Now!<span style="color:orange">*</span> </a></li>
-    <p>Rasa Record Studio</p>
-</ul>
+            <br />
+            <?php
+				include('inc/inside-menu.php');
+			?>
 	<div class="clear"></div>
-<!-- MENU-->
 		<div class="contain">
 			<div class="leftpanel">
 				<div class="login">
@@ -50,7 +24,7 @@
 					Password : <input class="user"  type="password" name="pws"/><br /><br />
                     
 					<input class="b" type="button" value="" onClick="javascript:location.href = '#';" />
-					<input class="a" type="button" value="" onClick="javascript:location.href ='signup.html';" />
+					<input class="a" type="button" value="" onClick="javascript:location.href ='signup.php';" />
                 </form>
 				</div>
             </div>
@@ -58,6 +32,7 @@
             <div style="clear:both;	margin:50px 0px 20px 180px;padding:1px;width:150px;height:150px;">
 			<img id="head" src="images/Headset2.gif" usemap="#head" width="100" height="100" />
             </div>
+            
             <!-- Control Music Menu
             <ul class="muz">
 				<li><a href="music/leave.mp3"><img class="hd" title="Play Or Download" src="images/playit.gif" width="50" height="50" /></a>
@@ -66,14 +41,15 @@
                 </li>
 
 				<li><a href="#"><img class="hd" src="images/stop.gif" width="50" height="50" /></a></li>
-				<li><a href="work1.html"><img class="hd" title="previous Work" src="images/perivios.gif" width="50" height="50" /></a>
+				<li><a href="work1.php"><img class="hd" title="previous Work" src="images/perivios.gif" width="50" height="50" /></a>
                 </li>
 
-				<li><a href="work2.html"><img class="hd" title="Next Work" src="images/next.gif" width="50" height="50" /></a>
+				<li><a href="work2.php"><img class="hd" title="Next Work" src="images/next.gif" width="50" height="50" /></a>
                 </li>
 				<li><a href="#"><img class="hd" src="images/sound.gif" width="50" height="50" /></a></li>
                 </ul>
-                -->				<div class="player">
+                -->
+                <div class="player">
 					<audio controls="controls">
   <source src="music/valen.mp3" type="audio/mpeg" />
   <source src="music/valen.ogg" type="audio/ogg" />
@@ -89,9 +65,10 @@
 			<div class="clear"></div>
 		</div>
             
-			<div class="footer">
-        	<p>Designed By <a class="mail" href=www.naserr.ir>NASER</a> For © Rasa Record
-            </p>
+        <div class="footer">
+            <?php
+                include('inc/inside-footer.php');
+            ?>
         </div>
     </div>
 </body>

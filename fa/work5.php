@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="rasa music studio" />
 <meta name="keywords" content="Music,Studio,Music maker" />
-<title>Rasa Music Studio</title>
+<title>استودیو رسا رکورد</title>
 <link type="text/css" rel="stylesheet" href="css.css" />
 <link type="text/css" rel="stylesheet" href="font/font.css" />
 </head>
@@ -13,35 +13,11 @@
 	<div class="container">
     
 		<div class="header">
-    <!-- MENU-->
 <br />
-<ul id="navigation" class="nav-main">
-	<li><a href="index.html">صفحه اصلی</a></li>
-    <li class="list"><a href="work1.html"> جدیدترین آثار </a>
-		<ul class="nav-sub">
-            <li><a href="work1.html">کار1</a></li>
-            <li><a href="work2.html">کار2</a></li>
-            <li><a href="work3.html">کار3</a></li>
-            <li><a href="work4.html">کار4</a></li>
-            <li><a href="work5.html">کار5</a></li>
-		</ul>
-	</li>
-    <li class="list"><a href="gallery1.html">گالری</a>
-		<ul class="nav-sub">
-			<li><a href="gallery1.html">عکس1</a></li>
-			<li><a href="gallery2.html">عکس2</a></li>
-			<li><a href="gallery3.html">عکس3</a></li>
-			<li><a href="gallery4.html">عکس4</a></li>
-			<li><a href="gallery5.html">عکس5</a></li>
-			<li><a href="gallery6.html">عکس6</a></li>
-		</ul>
-	</li>
-    <li><a href="about rasa.html">درباره استدیو رسا رکورد</a></li>
-    <li><a href="contact.html">تماس با ما</a></li>
-    <p>Rasa Record Studio</p>
-</ul>
+	<?php
+		include('inc/inside-menu.php');
+	?>
 	<div class="clear"></div>
-<!-- MENU-->
 		<div class="contain">
 			<div class="leftpanel">
 				<div class="login-work">
@@ -50,7 +26,7 @@
 					رمز ورود :<input class="user"  type="password" name="pws"/><br /><br />
                     
 					<input class="b" type="button" value="ورود" onClick="javascript:location.href = '#';" />
-					<input class="a" type="button" value="ثبت نام" onClick="javascript:location.href ='signup.html';" />
+					<input class="a" type="button" value="ثبت نام" onClick="javascript:location.href ='signup.php';" />
                 </form>
 				</div>
             </div>
@@ -63,10 +39,10 @@
                 </li>
 
 				<li><a href="#"><img class="hd" src="images/stop.gif" width="50" height="50" /></a></li>
-				<li><a href="work4.html"><img class="hd" title="previous Work" src="images/perivios.gif" width="50" height="50" /></a>
+				<li><a href="work4.php"><img class="hd" title="previous Work" src="images/perivios.gif" width="50" height="50" /></a>
                 </li>
 
-				<li><a href="work1.html"><img class="hd" title="Next Work" src="images/next.gif" width="50" height="50" /></a>
+				<li><a href="work1.php"><img class="hd" title="Next Work" src="images/next.gif" width="50" height="50" /></a>
                 </li>
 				<li><a href="#"><img class="hd" src="images/sound.gif" width="50" height="50" /></a></li>
                 </ul>
@@ -86,9 +62,10 @@
 			<div class="clear"></div>
 		</div>
             
-			<div class="footer">
-        	<p>Designed By <a class="mail" href=www.naserr.ir>NASER</a> For © Rasa Record
-            </p>
+        <div class="footer">
+            <?php
+                include('inc/inside-footer.php');
+            ?>
         </div>
     </div>
 </body>
